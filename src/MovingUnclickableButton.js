@@ -22,6 +22,7 @@ const MovingUnclickableButton = () => {
       variant="contained"
       color="error"
       onMouseEnter={moveButton}
+      onTouchStart={moveButton}
       onClick={(e) => e.preventDefault()}
       sx={{
         transition: 'all 0.4s ease-out',
